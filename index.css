@@ -1,0 +1,112 @@
+body{
+	font-family: 'Cuprum', sans-serif;
+}
+
+
+/* WRAPPER */
+
+.navbar{
+	font-family: 'Charm', cursive;
+	background-color: #000;
+}
+
+.top:hover{
+	color:#129cf3;
+}
+
+.wrap{
+	background-color: #1e2022;
+	text-align: center;
+}
+
+.head{
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	color: #ddd;
+	margin: 15% 10% 5% 10%;
+}
+
+.head h1::before{
+	content:" ";
+	border:2px solid #129cf3;
+	position:absolute;
+	top:65px;
+	width:30%;
+	height:0.5px;
+}
+
+.head h1{
+	font-family: 'Merienda', cursive;
+	font-size: 3.5rem;
+}
+
+.head p{
+	font-size:1.25rem;
+	font-weight: 400;
+}
+
+.head a{
+	font-size: 1.25rem;
+	margin:3% 3% 5% 0;
+}
+
+.top-img{
+	border: 2px solid #129cf3;
+	border-radius:100px;
+	width:60%;
+	margin:5% 10% 5% 10%;
+}
+
+
+/* POWER */
+
+.tipow{
+	position:relative;
+}
+
+.tipow h2{ 
+	font-family: 'Cuprum', sans-serif;
+	margin:3% auto 2% auto;
+}
+
+.tipow h2::before{
+	content:" ";
+	border:2px solid #129cf3;
+	position:absolute;
+	top:78px;
+	width:8.5%;
+	height:0.5px;
+}
+
+.tiicon{
+	color:#222;
+	text-align:center;
+}
+
+.colms h3{
+	font-family: 'Merienda', cursive;
+	font-size:1.8rem;
+	color:#222;
+	padding-top:1.5%;
+}
+
+.tiicon i:hover{
+	color: #129cf3;
+}
+
+.colms{
+	position:relative;
+	margin-top:3%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
