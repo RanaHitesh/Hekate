@@ -60,22 +60,14 @@ body{
 
 /* POWER */
 
-.tipow{
-	position:relative;
+#powers{
+	margin:4% 5% 4% 5%;	
 }
 
-.tipow h2{ 
+
+.tipow{ 
 	font-family: 'Cuprum', sans-serif;
-	margin:3% auto 2% auto;
-}
-
-.tipow h2::before{
-	content:" ";
-	border:2px solid #129cf3;
-	position:absolute;
-	top:78px;
-	width:8.5%;
-	height:0.5px;
+	text-align: center;
 }
 
 .tiicon{
@@ -90,22 +82,37 @@ body{
 	padding-top:1.5%;
 }
 
-.tiicon i:hover{
+.tiicon i:hover,.tiicon h3:hover{
 	color: #129cf3;
 }
 
 .colms{
 	position:relative;
-	margin-top:3%; 
+	margin:5% 0 2%; 
 }
 
 
+/* SYMBOLS*/
 
+#symbols{
+	font-family: 'Merienda', cursive; 
+	text-align: center;
+	background-color: #202020;
+	padding:2% 4%;
+}
 
+.card{
+	margin:2% 0 4%;
+}
 
+.card-header h3:hover{
+	color: #129cf3;
+}
 
-
-
+.card-body{
+	font-family: 'Cuprum', sans-serif;
+	font-size: 1.4rem;
+}
 
 
 
