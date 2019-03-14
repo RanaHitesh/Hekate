@@ -53,7 +53,8 @@ body{
 .top-img{
 	border: 2px solid #129cf3;
 	border-radius:100px;
-	width:60%;
+	width:260px;
+	height:380px;
 	margin:5% 10% 5% 10%;
 }
 
@@ -98,7 +99,7 @@ body{
 	font-family: 'Merienda', cursive; 
 	text-align: center;
 	background-color: #202020;
-	padding:2% 4%;
+	padding:2% 4% 0% 4%;
 }
 
 .card{
@@ -113,6 +114,47 @@ body{
 	font-family: 'Cuprum', sans-serif;
 	font-size: 1.4rem;
 }
+
+/* REPRESENTATIONS */
+
+#represent{
+	font-family: 'Merienda', cursive; 
+	text-align:center;
+	color:#fff;
+	background-image: url(universe.jpg);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.wraprep{
+	background-color: rgba(100,100,100,0.4);
+}
+
+.rep{
+	font-family: 'Cuprum', sans-serif;
+	padding:3% 4% 3% 4%;
+}
+
+.repimg{
+	width:300px;
+	height:400px;
+	border:3px solid #129cf3;
+	border-radius: 50%
+}
+
+.wraprep h3{
+	padding:1% 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
